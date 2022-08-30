@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "waterlogged=true": { "model": "better_foods:block/flooded_farmland" },
+    "waterlogged=false": { "model":  "better_foods:block/flooded_farmland1"}
+  }
+}
