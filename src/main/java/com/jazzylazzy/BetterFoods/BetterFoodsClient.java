@@ -9,5 +9,6 @@ public class BetterFoodsClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RICE_CROP_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TALL_RICE_CROP_BLOCK, RenderLayer.getCutout());
     }
 }

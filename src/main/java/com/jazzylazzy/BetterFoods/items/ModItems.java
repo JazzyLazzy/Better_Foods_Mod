@@ -15,8 +15,24 @@ public class ModItems {
             new Item(new FabricItemSettings()
                     .group(ItemGroup.MATERIALS)));
 
-    public static final Item UNCOOKED_RICE = registerItem("uncooked_rice",
+    public static final Item HUSKED_RICE = registerItem("husked_rice",
             new AliasedBlockItem(ModBlocks.RICE_CROP_BLOCK, new FabricItemSettings()
+                    .group(ItemGroup.FOOD)));
+
+    public static final Item UNCOOKED_RICE = registerItem("uncooked_rice",
+            new Item(new FabricItemSettings()
+                    .group(ItemGroup.FOOD)));
+
+    public static final Item PORCELAIN_INGOT = registerItem("porcelain_ingot",
+            new Item(new FabricItemSettings()
+                    .group(ItemGroup.FOOD)));
+
+    public static final Item CHINA_BOWL = registerItem("china_bowl",
+            new Item(new FabricItemSettings()
+                    .group(ItemGroup.FOOD)));
+
+    public static final Item CHOPSTICKS = registerItem("chopsticks",
+            new Item(new FabricItemSettings()
                     .group(ItemGroup.FOOD)));
 
     private static Item registerItem(String name, Item item){

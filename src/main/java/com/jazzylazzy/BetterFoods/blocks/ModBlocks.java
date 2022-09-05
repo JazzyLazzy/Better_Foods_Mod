@@ -21,8 +21,10 @@ public class ModBlocks {
 
     public static final Block FLOODED_FARMLAND = registerBlock("flooded_farmland",
             new WateredFarmlandBlock(FabricBlockSettings.copy(Blocks.FARMLAND)), ItemGroup.BUILDING_BLOCKS, false);
+
     public static final Block RICE_CROP_BLOCK = registerBlock("rice_crop_block",
             new RiceCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)), ItemGroup.BUILDING_BLOCKS, false);
+
     public static final Block TALL_RICE_CROP_BLOCK = registerBlock("tall_rice_crop_block",
             new Tall_RiceCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)), ItemGroup.BUILDING_BLOCKS, false);
 
