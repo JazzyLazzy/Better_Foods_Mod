@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -27,6 +28,9 @@ public class ModBlocks {
 
     public static final Block TALL_RICE_CROP_BLOCK = registerBlock("tall_rice_crop_block",
             new Tall_RiceCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)), ItemGroup.BUILDING_BLOCKS, false);
+
+    public static final Block RICE_COOKER = registerBlock("rice_cooker",
+            new RiceCookerBlock(FabricBlockSettings.copy(Blocks.FURNACE)), ItemGroup.BUILDING_BLOCKS, true);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab, boolean hasItem) {
         if (hasItem){
