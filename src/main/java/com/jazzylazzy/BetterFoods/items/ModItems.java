@@ -23,6 +23,10 @@ public class ModItems {
             new Item(new FabricItemSettings()
                     .group(ItemGroup.FOOD)));
 
+    public static final Item COOKED_RICE = registerItem("cooked_rice",
+            new Item(new FabricItemSettings()
+                    .group(ItemGroup.FOOD)));
+
     public static final Item PORCELAIN_INGOT = registerItem("porcelain_ingot",
             new Item(new FabricItemSettings()
                     .group(ItemGroup.FOOD)));

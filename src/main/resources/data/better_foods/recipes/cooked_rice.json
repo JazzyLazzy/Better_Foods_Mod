@@ -1,0 +1,12 @@
+{
+  "type": "better_foods:cooked_rice",
+  "ingredients": [
+    {
+      "item": "better_foods:uncooked_rice"
+    }
+  ],
+  "output": {
+    "item": "better_foods:cooked_rice"
+  }
+}
+
